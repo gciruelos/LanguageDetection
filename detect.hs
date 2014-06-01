@@ -45,7 +45,7 @@ languageProbability lang n phrase = sum [abs((fromJust(search c)) - fromJust(loo
                               --sum $ filter (\x -> x notElem (map fst freq)) (map fst grams)
                                     where grams      = lang !! (n-1)
                                           search x   = lookup x grams
-                                          freq       = filter (\i -> isJust (search $ fst i)) (frequency $ ngrams n phrase)
+                                          freq       = filter (isJust . search . fst) (frequency $ ngrams n phrase)
 
 
 
