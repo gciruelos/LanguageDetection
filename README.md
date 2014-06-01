@@ -1,4 +1,4 @@
-languagedetection.hs
+LanguageDetection
 ====================
 
 Language detection in Haskell. Right now it is under development, so it will definitely fail.
