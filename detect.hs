@@ -32,6 +32,7 @@ ngrams n phrase = concat $ map (ngram n) (clean phrase)
 divFloat :: Int -> Int -> Float
 divFloat x y = (fromIntegral x) / (fromIntegral y)
 
+sortSndDec :: Ord b => [(a, b)] -> [(a, b)]
 sortSndDec list = reverse $ sortBy (compare `on` snd) list
 
 frequency :: [String] -> [(String, Float)] 
@@ -39,7 +40,7 @@ frequency list = sortSndDec (map (\l -> (head l, divFloat (length l) (length lis
 
 ------------------------------------------------------------------------
 
---languageProbability :: Int -> String -> Float
+languageProbability :: [[(String, Float)]] -> Int -> String -> Float
 languageProbability lang n phrase = sum [abs((fromJust(search c)) - fromJust(lookup c freq)) | c <- (map fst freq)]
                               --sum $ filter (\x -> x notElem (map fst freq)) (map fst grams)
                                     where grams      = lang !! (n-1)
@@ -48,4 +49,5 @@ languageProbability lang n phrase = sum [abs((fromJust(search c)) - fromJust(loo
 
 
 
+detect :: String -> [(String, Float)]
 detect phrase = [head $ sortSndDec[(fst lang, languageProbability (snd lang) n phrase) | lang <- [english, spanish]] | n <- [1]]
