@@ -13,10 +13,13 @@ How To Use
 Books used
 ----------
 **English**
-* Dracula (http://www.gutenberg.org/files/45839/45839-0.txt)
+* Ulysses (http://www.gutenberg.org/cache/epub/4300/pg4300.txt)
 
 **Spanish**
-* Amistad Funesta (http://www.gutenberg.org/cache/epub/18166/pg18166.txt)
+* El ingenioso hidalgo don Quijote de la Mancha (http://www.gutenberg.org/files/2000/old/2donq10.txt)
+
+**Italian**
+* Divina Comedia (http://www.gutenberg.org/cache/epub/1012/pg1012.txt)
 
 Contribute
 ----------
