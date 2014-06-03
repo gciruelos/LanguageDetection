@@ -27,7 +27,7 @@ Books used
 
 **English**
 * Ulysses
-* Adventures of Huckleberry Finn
+* Leaves of Grass
 
 **Italian**
 * Divina Comedia (http://www.gutenberg.org/cache/epub/1012/pg1012.txt)
