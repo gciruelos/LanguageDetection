@@ -23,4 +23,4 @@ Books used
 
 Contribute
 ----------
-You could contribute by adding new languages or 2-grams, 3-grams or 4-grams.
+You could contribute by adding new languages.
