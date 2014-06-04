@@ -30,7 +30,16 @@ Books used
 * Leaves of Grass
 
 **Italian**
-* Divina Comedia (http://www.gutenberg.org/cache/epub/1012/pg1012.txt)
+* Il Nome Della Rosa
+
+**French**
+* L'Etranger
+* Les Fleurs du Mal
+
+**German**
+* Prometheus
+* Die Verwandlung
+
 
 Contribute
 ----------
